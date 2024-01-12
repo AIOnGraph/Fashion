@@ -4,7 +4,7 @@ import joblib
 from PIL import Image
 import numpy as np
 
-model = joblib.load("cnn.joblib")
+model = joblib.load("./cnn.joblib")
 
 class_labels = {
     0: "T-shirt/top",
