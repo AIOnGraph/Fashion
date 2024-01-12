@@ -1,7 +1,7 @@
+import cv2
 import streamlit as st
 import joblib
 from PIL import Image
-import cv2
 import numpy as np
 
 model = joblib.load("cnn.joblib")
